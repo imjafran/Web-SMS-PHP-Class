@@ -28,9 +28,9 @@ $multi = new SMS();
 
 # setting attributes
 $multi->
-		setNumbers(['01700000000', '01700000001'])-> # ARRAY | ['number1', 'numbers2']
-		setMessage('your message')-> # STRING | Message
-		send(); # Returns array
+	setNumbers(['01700000000', '01700000001'])-> # ARRAY | ['number1', 'numbers2']
+	setMessage('your message')-> # STRING | Message
+	send(); # Returns array
 
 
 
@@ -40,9 +40,9 @@ $multi2 = new SMS();
 
 # setting attributes
 $multi2->
-		setNumbers('01700000000', '01700000001')-> # STRING | Use comma after each number
-		setMessage('your message')-> # STRING | Message
-		send(); # Returns array
+	setNumbers('01700000000', '01700000001')-> # STRING | Use comma after each number
+	setMessage('your message')-> # STRING | Message
+	send(); # Returns array
 
 
 
@@ -52,11 +52,11 @@ $multi3 = new SMS();
 
 # setting attributes, recalling setNumbers method will store new number
 $multi3->
-		setNumbers('01700000000')-> # STRING | Numbers
-		setNumbers('01700000001')-> # STRING | Numbers
-		setNumbers('01700000003')-> # STRING | Numbers
-		setMessage('your message')-> # STRING | Message
-		send(); # Returns array
+	setNumbers('01700000000')-> # STRING | Numbers
+	setNumbers('01700000001')-> # STRING | Numbers
+	setNumbers('01700000003')-> # STRING | Numbers
+	setMessage('your message')-> # STRING | Message
+	send(); # Returns array
 
 
 
@@ -68,8 +68,8 @@ $bulk = new SMS();
 
 # setting attributes
 $bulk->
-		setBulk(['01757377445' => 'hello text'])-> # ARRAY | [Number => Message]
-		send(); # Returns array
+	setBulk(['01757377445' => 'hello text'])-> # ARRAY | [Number => Message]
+	send(); # Returns array
 
 
 # recalling  setBulk method will store new number and message, won't reset previous values. Assigning multiple element in array inside setBulk method is allowed.
@@ -77,7 +77,7 @@ $bulk->
 
 
 ##################################################################################################
-############### 			Developed by Jafran Hasan | fb/iamjafran 				##############
+##############  	    Developed by Jafran Hasan | fb/iamjafran 	            ##############
 ##################################################################################################
 
 
