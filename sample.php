@@ -15,9 +15,9 @@ $single = new SMS();
 
 # setting attributes
 $single->
-		setNumbers('01700000000')-> # STRING | Numbers
-		setMessage('your message')-> # STRING | Message
-		send(); # Returns array
+	setNumbers('01700000000')-> # STRING | Numbers
+	setMessage('your message')-> # STRING | Message
+	send(); # Returns array
 
 
 
