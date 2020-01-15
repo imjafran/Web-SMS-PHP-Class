@@ -6,7 +6,7 @@
 */
 if( !class_exists('SMS') ) {
 	class SMS {
-		private 		$key = 'TnWNtvIQfwxMiC4XkEBz';  // change your key here
+		private 		$key = 'YOUR_API_KEY';  // change your key here
 		protected 		$numbers = false;
 		protected 		$message = false;
 		protected 		$bulk = false;
